@@ -51,3 +51,24 @@ header, footer {
     text-decoration: none;
 }
 
+.event-tile {
+    visibility: visible;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.hide-event-btn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 70%;
+}
+
+.event-content {
+    width: 85%;
+    overflow-wrap: break-word;
+}

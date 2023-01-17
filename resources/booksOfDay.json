@@ -1,0 +1,46 @@
+{
+  "booksOfDay": [
+    {
+      "id": 1,
+      "dayOfWeek": 0,
+      "title": "Pan Tadeusz",
+      "author": "Adam Mickiewicz"
+    },
+    {
+      "id": 2,
+      "dayOfWeek": 1,
+      "title": "Krzyżacy",
+      "author": "Henryk Sienkiewicz"
+    },
+    {
+      "id": 3,
+      "dayOfWeek": 2,
+      "title": "Lalka",
+      "author": "Bolesław Prus"
+    },
+    {
+      "id": 4,
+      "dayOfWeek": 3,
+      "title": "Wesele",
+      "author": "Stanisław Wyspiański"
+    },
+    {
+      "id": 5,
+      "dayOfWeek": 4,
+      "title": "Ferdydurke",
+      "author": "Witold Gombrowicz"
+    },
+    {
+      "id": 6,
+      "dayOfWeek": 5,
+      "title": "Dziady 3",
+      "author": "Adam Mickiewicz"
+    },
+    {
+      "id": 7,
+      "dayOfWeek": 6,
+      "title": "Zemsta i kara",
+      "author": "Fiodor Dostojewski"
+    }
+  ]
+}
