@@ -1,0 +1,53 @@
+.filters-col {
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: lightgrey;
+}
+
+header, footer {
+    background-color: silver;
+}
+
+.book-tile {
+    width: 500px;
+    height: 350px;
+    border-color: silver;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.book-tile:hover {
+    outline: silver solid 4px;
+}
+
+.pagination-col {
+    font-size: 30px;
+}
+
+.book-cover {
+    height: 350px;
+    width: 250px;
+}
+
+.book-description {
+    width: 240px;
+}
+
+.book-link {
+    color: black;
+}
+
+.book-link:link {
+    text-decoration: none;
+}
+.book-link:visited {
+    text-decoration: none;
+}
+.book-link:hover {
+    color: black;
+    text-decoration: none;
+}
+.book-link:active {
+    text-decoration: none;
+}
+
