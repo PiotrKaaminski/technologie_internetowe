@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Pan Tadeusz",
+      "category": "Poezja",
+      "publisher": "Helion",
+      "author": "Adam Mickiewicz",
+      "coverUrl": "resources/okladka.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Pan Tadeusz",
+      "category": "Poezja Epicka",
+      "publisher": "Helion",
+      "author": "Adam Mickiewicz",
+      "coverUrl": "resources/okladka.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Pan Tadeusz",
+      "category": "Poezja Epicka",
+      "publisher": "Helion",
+      "author": "Adam Mickiewiczzz",
+      "coverUrl": "resources/okladka.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Pan Tadeusz",
+      "category": "Poezja Epicka",
+      "publisher": "Helion",
+      "author": "Adam Mickiewicz",
+      "coverUrl": "resources/okladka.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Pan Tadeusz",
+      "category": "Poezja Epicka",
+      "publisher": "Helion",
+      "author": "Adam Mickiewicz",
+      "coverUrl": "resources/okladka.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Pan Tadeusz",
+      "category": "Poezja Epicka",
+      "publisher": "Helion",
+      "author": "Adam Mickiewicz",
+      "coverUrl": "resources/okladka.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Pan Tadeusz",
+      "category": "Poezja Epicka",
+      "publisher": "Helion",
+      "author": "Adam Mickiewicz",
+      "coverUrl": "resources/okladka.jpg"
+    }
+  ]
+}

@@ -2,10 +2,15 @@
     border-right-width: 2px;
     border-right-style: solid;
     border-right-color: lightgrey;
+    width: 300px;
 }
 
 header, footer {
     background-color: silver;
+}
+
+.bookTileContainer {
+    margin-bottom: 20px;
 }
 
 .book-tile {
@@ -53,11 +58,11 @@ header, footer {
 
 .event-tile {
     visibility: visible;
-    position: absolute;
+    position: fixed;
     bottom: 50px;
     left: 20px;
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 260px;
     background-color: yellow;
 }
 

@@ -2,7 +2,6 @@
 <html lang="pl">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/style.css">
@@ -19,7 +18,7 @@
         <div class="row align-items-center">
             <div class="col-8">
                 <a href="index.html">
-                    <img src="resources/logo.png" alt="logo" height="100px"/>
+                    <img src="resources/logo.png" alt="logo" height="100">
                 </a>
             </div>
             <div class="col-2" style="font-size: 30px">
@@ -34,40 +33,36 @@
 </header>
 <div class="container-fluid ">
     <div class="row">
-        <div class="col-2 filters-col">
-            <label>
-                Tytuł:<br>
-                <input type="text" style="width: 315px;">
-            </label>
-            <br><br>
-            Wydawnictwo:
-            <select class="custom-select">
-                <option selected></option>
-                <option>Helion</option>
-                <option>Nowa Era</option>
-            </select>
-            <br><br>
-            Dziedzina:
-            <select class="custom-select">
-                <option selected></option>
-                <option>Sci-fi</option>
-                <option>Thriller</option>
-                <option>Komedia</option>
-                <option>Biografia</option>
-            </select>
-            <br><br>
-            Autor:
-            <select class="custom-select">
-                <option selected></option>
-                <option>Henryk Sienkiewicz</option>
-                <option>Adam Mickiewicz</option>
-                <option>Stanisław Wyspiański</option>
-            </select>
+        <div class="col-sm-auto filters-col">
+            <div>
+                <div class="form-group mb-4">
+                    <label for="titleFilter">Tytuł</label>
+                    <input type="text" class="form-control" id="titleFilter" oninput="applyFilters()">
+                </div>
+
+                <div class="form-group mb-4">
+                    <label for="publisherFilter">Wydawnictwo:</label>
+                    <select class="custom-select" id="publisherFilter" onchange="applyFilters()">
+                        <option value="null" label=" " selected>
+                    </select>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="categoryFilter">Dziedzina:</label>
+                    <select class="custom-select" id="categoryFilter" onchange="applyFilters()">
+                        <option value="null" label=" " selected>
+                    </select>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="authorFilter">Autor:</label>
+                    <select class="custom-select" id="authorFilter" onchange="applyFilters()">
+                        <option value="null" label=" " selected>
+                    </select>
+                </div>
+            </div>
         </div>
-        <div class="col books-col">
-            <div class="row">
-                <div class="col-6"></div>
-                <div class="col-3 ml-auto">
+        <div class="col-sm books-col">
+            <div class="d-flex justify-content-end">
+                <div class="mr-3">
                     Sortuj po:
                     <select class="custom-select">
                         <option selected>Tytule</option>
@@ -75,145 +70,24 @@
                         <option>Autorze</option>
                     </select>
                 </div>
-                <div class="col-3 ml-auto">
+                <div>
                     Kierunek:
                     <select class="custom-select">
                         <option selected>Rosnąco</option>
-                        <option selected>Malejąco</option>
+                        <option>Malejąco</option>
                     </select>
                 </div>
             </div>
             <hr>
-            <div class="row align-items-center mt-4">
-                <div class="col-4 align-items-center text-center">
-                    <a href="book.html" class="book-link">
-                        <div class="book-tile">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <img class="book-cover" src="resources/okladka.jpg" alt="okładka"/>
-                                </div>
-                                <div class="col-auto text-center book-description">
-                                    <p style="font-size: 30px;">Pan Tadeusz</p>
-                                    <p style="font-size: 15px;">Autor</p>
-                                    <p style="font-size: 20px;">Adam Mickiewicz</p>
-                                    <p style="font-size: 15px;">Kategorie</p>
-                                    <p style="font-size: 20px;">Poezja Epicka</p>
-                                    <p style="font-size: 15px;">Wydawnictwo</p>
-                                    <p style="font-size: 20px;">Helion</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4 align-items-center text-center">
-                    <a href="book.html" class="book-link">
-                        <div class="book-tile">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <img class="book-cover" src="resources/okladka.jpg" alt="okładka"/>
-                                </div>
-                                <div class="col-auto text-center book-description">
-                                    <p style="font-size: 30px;">Pan Tadeusz</p>
-                                    <p style="font-size: 15px;">Autor</p>
-                                    <p style="font-size: 20px;">Adam Mickiewicz</p>
-                                    <p style="font-size: 15px;">Kategorie</p>
-                                    <p style="font-size: 20px;">Poezja Epicka</p>
-                                    <p style="font-size: 15px;">Wydawnictwo</p>
-                                    <p style="font-size: 20px;">Helion</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4 align-items-center text-center">
-                    <a href="book.html" class="book-link">
-                        <div class="book-tile">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <img class="book-cover" src="resources/okladka.jpg" alt="okładka"/>
-                                </div>
-                                <div class="col-auto text-center book-description">
-                                    <p style="font-size: 30px;">Pan Tadeusz</p>
-                                    <p style="font-size: 15px;">Autor</p>
-                                    <p style="font-size: 20px;">Adam Mickiewicz</p>
-                                    <p style="font-size: 15px;">Kategorie</p>
-                                    <p style="font-size: 20px;">Poezja Epicka</p>
-                                    <p style="font-size: 15px;">Wydawnictwo</p>
-                                    <p style="font-size: 20px;">Helion</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            <div id="bookTilesContainer" class="row align-items-center mt-4 pb-4">
+
             </div>
-            <div class="row align-items-center mt-4">
-                <div class="col-4 align-items-center text-center">
-                    <a href="book.html" class="book-link">
-                        <div class="book-tile">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <img class="book-cover" src="resources/okladka.jpg" alt="okładka"/>
-                                </div>
-                                <div class="col-auto text-center book-description">
-                                    <p style="font-size: 30px;">Pan Tadeusz</p>
-                                    <p style="font-size: 15px;">Autor</p>
-                                    <p style="font-size: 20px;">Adam Mickiewicz</p>
-                                    <p style="font-size: 15px;">Kategorie</p>
-                                    <p style="font-size: 20px;">Poezja Epicka</p>
-                                    <p style="font-size: 15px;">Wydawnictwo</p>
-                                    <p style="font-size: 20px;">Helion</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4 align-items-center text-center">
-                    <a href="book.html" class="book-link">
-                        <div class="book-tile">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <img class="book-cover" src="resources/okladka.jpg" alt="okładka"/>
-                                </div>
-                                <div class="col-auto text-center book-description">
-                                    <p style="font-size: 30px;">Pan Tadeusz</p>
-                                    <p style="font-size: 15px;">Autor</p>
-                                    <p style="font-size: 20px;">Adam Mickiewicz</p>
-                                    <p style="font-size: 15px;">Kategorie</p>
-                                    <p style="font-size: 20px;">Poezja Epicka</p>
-                                    <p style="font-size: 15px;">Wydawnictwo</p>
-                                    <p style="font-size: 20px;">Helion</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4 align-items-center text-center">
-                    <a href="book.html" class="book-link">
-                        <div class="book-tile">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <img class="book-cover" src="resources/okladka.jpg" alt="okładka"/>
-                                </div>
-                                <div class="col-auto text-center book-description">
-                                    <p style="font-size: 30px;">Pan Tadeusz</p>
-                                    <p style="font-size: 15px;">Autor</p>
-                                    <p style="font-size: 20px;">Adam Mickiewicz</p>
-                                    <p style="font-size: 15px;">Kategorie</p>
-                                    <p style="font-size: 20px;">Poezja Epicka</p>
-                                    <p style="font-size: 15px;">Wydawnictwo</p>
-                                    <p style="font-size: 20px;">Helion</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <hr>
+            <!--<hr>
             <div class="row">
                 <div class="col-12 pagination-col text-center">
-                    <p>&lt <strong>1</strong> 2 3 &gt</p>
+                    <p>&lt; <strong>1</strong> 2 3 &gt;</p>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
     <div class="event-tile text-wrap" id="event-tile">
@@ -237,5 +111,6 @@
     </div>
 </footer>
 <script src="scripts/eventHandling.js"></script>
+<script src="scripts/generateHomePageContent.js"></script>
 </body>
 </html>
