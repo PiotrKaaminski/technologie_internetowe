@@ -16,5 +16,6 @@ function generateInfo(books) {
     document.getElementById("bookPublisher").innerHTML = book.publisher;
     document.getElementById("bookAuthor").innerHTML = book.author;
     document.getElementById("bookCategory").innerHTML = book.category;
+    document.getElementById("bookDescription").innerHTML = book.description;
 
 }

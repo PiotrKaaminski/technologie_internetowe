@@ -3,58 +3,83 @@
     {
       "id": "1",
       "title": "Pan Tadeusz",
-      "category": "Poezja",
-      "publisher": "Helion",
+      "category": "Poezja Epicka",
+      "publisher": "Dragon",
       "author": "Adam Mickiewicz",
-      "coverUrl": "resources/okladka.jpg"
+      "coverUrl": "resources/okladki/panTadeusz.jpg",
+      "description": "Pan Tadeusz, czyli Ostatni zajazd na Litwie – poemat epicki Adama Mickiewicza. Epopeja narodowa z elementami gawędy szlacheckiej powstała w latach 1832–1834 w Paryżu. Ekskluzywne, kolekcjonerskie wydanie z klasycznymi ilustracjami Andriollego."
     },
     {
       "id": "2",
-      "title": "Pan Tadeusz",
-      "category": "Poezja Epicka",
-      "publisher": "Helion",
+      "title": "Konrad Wallenrod",
+      "category": "Powieść",
+      "publisher": "GREG",
       "author": "Adam Mickiewicz",
-      "coverUrl": "resources/okladka.jpg"
+      "coverUrl": "resources/okladki/konradWallenrod.jpg",
+      "description": "Wydanie Konrada Wallenroda kompletne bez skrótów i cięć w treści. W tym wydaniu znajdziesz odpowiedzi na pytania z podręcznika - pewniak na teście , czyli wskazanie zagadnień, które zwykle pojawiają się w pytaniach z danej lektury we wszelkich testach sprawdzających wiedzę, a także w podręcznikach i na klasówkach. Książka zawiera pełen tekst lektury. Na końcu książki zamieszczono opracowanie, w którym znajduje się bardzo szczegółowe streszczenie oraz drugie skrócone, ułatwiające szybkie przygotowanie się przed lekcją. Opracowanie zawiera ponadto plan wydarzeń, wnikliwie wyjaśnioną problematykę oraz szerokie charakterystyki bohaterów.Konrad Wallenrod to powieść poetycka autorstwa Adama Mickiewicza. Wieszcz posłużył się akcją toczącą się w średniowieczu, aby ukazać problemy z polskim patriotyzmem.<br><br>Krzyżacy dążą do zniewolenia Litwy. Jednak to właśnie w zakonie dojrzewa mściciel, który pokona najeźdźcę. Czuwa nad nim litewski poeta i śpiewak - wajdelota Halban. Dzięki jego przewodnictwu Alf decyduje się na ucieczkę od swoich dręczycieli, następnie rezygnuje z osobistego szczęścia, porzuca żonę, wraca do zakonu jako Konrad Wallenrod i mści krzywdy wyrządzone ojczyźnie.</br>Od nazwiska Konrada Wallenroda pochodzi popularne pojęcie wallenrodyzmu - oznacza ono sytuację, w której ktoś mający szlachetny cel posługuje się podstępem lub zdradą."
     },
     {
       "id": "3",
-      "title": "Pan Tadeusz",
-      "category": "Poezja Epicka",
-      "publisher": "Helion",
-      "author": "Adam Mickiewiczzz",
-      "coverUrl": "resources/okladka.jpg"
+      "title": "Lalka",
+      "category": "Powieść",
+      "publisher": "GREG",
+      "author": "Bolesław Prus",
+      "coverUrl": "resources/okladki/lalka.jpg",
+      "description": "Wydanie Lalki kompletne bez skrótów i cięć w treści. W tym wydaniu znajdziesz odpowiedzi na pytania z podręcznika - pewniak na teście , czyli wskazanie zagadnień, które zwykle pojawiają się w pytaniach z danej lektury we wszelkich testach sprawdzających wiedzę, a także w podręcznikach i na klasówkach. Książka zawiera pełen tekst lektury. Na końcu książki zamieszczono opracowanie, w którym znajduje się bardzo szczegółowe streszczenie oraz drugie skrócone, ułatwiające szybkie przygotowanie się przed lekcją. Opracowanie zawiera ponadto plan wydarzeń, wnikliwie wyjaśnioną problematykę oraz szerokie charakterystyki bohaterów.<br><br>Stanisław Wokulski jest warszawskim kupcem galanteryjnym, człowiekiem pracowitym, uczciwym i zdolnym, którego życie uczuciowe przebiega spokojnie do czasu, gdy poznaje piękną szlachciankę Izabelę Łęcką. Dziewczyna o urodzie anioła staje się odtąd dla niego ideałem, spełnieniem marzeń, celem i sensem życia. Dla niej dokonuje szeregu działań, które pozwalają mu znaleźć się w jej towarzystwie, a z czasem nawet zdobyć jej rękę. Czy jednak Izabela jest warta tych starań? Jaką motywacją się kieruje? Czy taka historia może zakończyć się szczęśliwie? Zapraszamy do lektury jednej z najlepszych polskich powieści realistycznych!"
     },
     {
       "id": "4",
-      "title": "Pan Tadeusz",
-      "category": "Poezja Epicka",
-      "publisher": "Helion",
-      "author": "Adam Mickiewicz",
-      "coverUrl": "resources/okladka.jpg"
+      "title": "Katarynka",
+      "category": "Opowiadanie",
+      "publisher": "GREG",
+      "author": "Bolesław Prus",
+      "coverUrl": "resources/okladki/katarynka.jpg",
+      "description": "Katarynka w serii Kolorowa Klasyka to najpiękniejsze kolorowe wydanie tej noweli na rynku! Książka zawiera wspaniałe, barwne ilustracje, jej atutem jest duża, ułatwiająca szybkie czytanie czcionka. Edycja na szlachetnym papierze, bardzo trwała i estetyczna. Wydanie zawiera pełny tekst utworu, bez skrótów i cięć w treści. Wydanie to nie zawiera opracowania.\nNajbardziej wzruszający utwór Bolesława Prusa teraz w serii Kolorowa Klasyka, z nowatorskimi, klimatycznymi ilustracjami!<br><br>Pan Tomasz prowadzi spokojne, unormowane życie, otacza się pięknymi przedmiotami, jest znawcą muzyki i sztuki. Nic dziwnego, że nie znosi podwórzowych katarynek z ich hałaśliwymi, krzykliwymi melodiami.<br><br>Jednak pewnego dnia do kamienicy, w której mieszka pan Tomasz, wprowadza się uboga kobieta z niewidomą córeczką. I to właśnie podwórzowa katarynka połączy losy mężczyzny i dziecka, zmieniając życie dziewczynki w sposób, który wyciśnie łzy wzruszenia z oczu każdego czytelnika. Zapraszamy do lektury!"
     },
     {
       "id": "5",
-      "title": "Pan Tadeusz",
-      "category": "Poezja Epicka",
-      "publisher": "Helion",
-      "author": "Adam Mickiewicz",
-      "coverUrl": "resources/okladka.jpg"
+      "title": "Quo Vadis",
+      "category": "Powieść",
+      "publisher": "GREG",
+      "author": "Henryk Sienkiewicz",
+      "coverUrl": "resources/okladki/quoVadis.jpg",
+      "description": "Quo vadis w serii Kolorowa Klasyka to najpiękniejsze kolorowe wydanie tej powieści na rynku! Książka zawiera wspaniałe, barwne ilustracje, jej atutem jest duża, ułatwiająca szybkie czytanie czcionka. Edycja na szlachetnym papierze, bardzo trwała i estetyczna. Wydanie zawiera pełny tekst utworu, bez skrótów i cięć w treści. Wydanie to nie zawiera opracowania.<br><br>Starożytny Rzym pod panowaniem szalonego cesarza Nerona to miejsce, gdzie ścierają się dwie idee i dwa światy - pogański, w którym jedynym prawem jest dążenie do własnej przyjemności, i rodzący się świat chrześcijański, kierujący się moralnością i miłością bliźniego. Z jednego z nich pochodzi Winicjusz, dumny i gwałtowny Rzymianin, z drugiego Ligia, skromna chrześcijanka. Ci dwoje są tak różni jak ogień i woda, a jednak połączy ich miłość, która na zawsze zmieni życie obojga. Nim jednak dane im będzie zaznać wspólnego szczęścia, czeka ich wiele niebezpieczeństw, zwłaszcza gdy rozpęta się polowanie na chrześcijan, a ulice miasta spłyną krwią...<br><br>Jedna z najpoczytniejszych powieści Henryka Sienkiewicza teraz dostępna w serii Kolorowa Klasyka, z kanonicznymi ilustracjami przedwojennego grafika Piotra Stachiewicza. Wydanie w twardej oprawie jest szczególnie estetyczne i trwałe. Zapraszamy do lektury!"
     },
     {
       "id": "6",
-      "title": "Pan Tadeusz",
-      "category": "Poezja Epicka",
-      "publisher": "Helion",
-      "author": "Adam Mickiewicz",
-      "coverUrl": "resources/okladka.jpg"
+      "title": "Balladyna",
+      "category": "Dramat",
+      "publisher": "Filia",
+      "author": "Juliusz Słowacki",
+      "coverUrl": "resources/okladki/balladyna.jpg",
+      "description": "Balladyna ma wiele oblicz. Raz odcina głowę, bo taki ma kaprys; innym razem potrafi zabić po cichu, a winę zrzucić na kogoś innego. Jest pełna nienawiści i nie przebiera w środkach w dążeniu do realizacji swoich planów. Manipuluje, kłamie, oszukuje, zabija. Zło kusi ją od dziecka. Ma bardzo dobrą pamięć i nie zna litości. Czasem skrywa się pod innym imieniem. Bella, Beata, B., Sandra, Waleria, a nawet Al Bandyn. Nieważne jakie imię by przybrała, prędzej czy później da się ją rozpoznać po charakterystycznej bliźnie na czole.<br><br>Jednak nie każdy jest na tyle rozsądny, by zejść jej z drogi.<br><br>Ośmiu wybitnych polskich autorów odsłania współczesne oblicze Balladyny!"
     },
     {
       "id": "7",
-      "title": "Pan Tadeusz",
-      "category": "Poezja Epicka",
-      "publisher": "Helion",
-      "author": "Adam Mickiewicz",
-      "coverUrl": "resources/okladka.jpg"
+      "title": "Syzyfowe Prace",
+      "category": "Powieść",
+      "publisher": "GREG",
+      "author": "Stefan Żeromski",
+      "coverUrl": "resources/okladki/syzyfowePrace.jpg",
+      "description": "Syzyfowe prace w serii Kolorowa Klasyka to najpiękniejsze kolorowe wydanie tej powieści na rynku! Książka zawiera wspaniałe, barwne ilustracje, jej atutem jest duża, ułatwiająca szybkie czytanie czcionka. Edycja na szlachetnym papierze, bardzo trwała i estetyczna. Wydanie zawiera pełny tekst utworu, bez skrótów i cięć w treści. Wydanie to nie zawiera opracowania.\nPowieść Stefana Żeromskiego opowiada o trudnych dla Polski czasach - znajdująca się pod zaborami ojczyzna zniknęła z mapy Europy. Polacy musieli zmagać się z zakusami zaborców, którzy za wszelką cenę chcieli sprawić, by młodzież zapomniała, kim naprawdę jest.<br><br>Państwo Borowiczowie wysyłają swojego jedynaka - Marcinka - do szkoły. Ze szkoły wynosi nie tylko wiedzę, którą starają się przekazać mu nauczyciele, dojrzewa i zyskuje świadomość swojej narodowości. Syzyfowe prace opisują ducha narodu, którego żaden zaborca nie mógł stłamsić. Polecamy!"
+    },
+    {
+      "id": "8",
+      "title": "Siłaczka",
+      "category": "Fikcja",
+      "publisher": "GREG",
+      "author": "Stefan Żeromski",
+      "coverUrl": "resources/okladki/silaczka.jpg",
+      "description": "Siłaczka w serii Kolorowa Klasyka to najpiękniejsze kolorowe wydanie tej noweli na rynku! Książka zawiera wspaniałe, barwne ilustracje, jej atutem jest duża, ułatwiająca szybkie czytanie czcionka. Edycja na szlachetnym papierze, bardzo trwała i estetyczna. Wydanie zawiera pełny tekst utworu, bez skrótów i cięć w treści. Wydanie to nie zawiera opracowania.\nKrótkie utwory Stefana Żeromskiego stanowią istną perłę nowelistyki polskiej. Przedstawiamy jeden z nich, opisujący historię młodego i zdolnego lekarza, Pawła Obareckiego, który rozpoczyna karierę w miasteczku o wiele mówiącej nazwie Obrzydłówek.<br><br>Doktor stara się odnaleźć swoje miejsce w codzienności, która jednak nie jest wobec niego zbyt przyjazna... Jaki wpływ na jego losy będzie miało niespodziewane i dramatyczne spotkanie z panną Stanisławą - jego dawną miłością? Czy jest jeszcze szansa na ocalenie dawnych ideałów doktora?<br><br>Nowelka dostępna teraz w serii Kolorowa Klasyka, w wydaniu z pięknymi ilustracjami."
+    },
+    {
+      "id": "9",
+      "title": "Przedwiośnie",
+      "category": "Fikcja",
+      "publisher": "GREG",
+      "author": "Stefan Żeromski",
+      "coverUrl": "resources/okladki/przedwiosnie.jpg",
+      "description": "Jedno z niekwestionowanych arcydzieł polskiej literatury. Książka została wydana wraz z opracowaniem. Dla urozmaicenia wyróżniono i wyodrębniono cytaty, które warto znać, zamieszczono streszczenie."
     }
   ]
 }

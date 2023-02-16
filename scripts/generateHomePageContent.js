@@ -9,6 +9,35 @@ fetch('./resources/books.json')
     })
 
 function generateTiles(booksToGenerate) {
+    let sortBy = document.getElementById("sortBy").value;
+    let sortDirection = document.getElementById("sortDirection").value;
+    let direction = sortDirection === "asc" ? -1 : 1;
+    booksToGenerate.sort(function (a, b) {
+        let valA;
+        let valB
+        switch (sortBy) {
+            case "title":
+                valA = a.title;
+                valB = b.title;
+                break;
+            case "publisher":
+                valA = a.publisher;
+                valB = b.publisher;
+                break;
+            case "author":
+                valA = a.author;
+                valB = b.author;
+                break;
+        }
+        if (valA > valB) {
+            return -1 * direction;
+        }
+        if (valA < valB) {
+            return 1 * direction;
+        }
+        return 0;
+    })
+
     let booksContainer = document.getElementById("bookTilesContainer");
     for (const element of booksToGenerate) {
         booksContainer.appendChild(generateTile(element));

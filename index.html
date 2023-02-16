@@ -63,18 +63,18 @@
         <div class="col-sm books-col">
             <div class="d-flex justify-content-end">
                 <div class="mr-3">
-                    Sortuj po:
-                    <select class="custom-select">
-                        <option selected>Tytule</option>
-                        <option>Wydawnictwie</option>
-                        <option>Autorze</option>
+                    <label for="sortBy">Sortuj po:</label>
+                    <select class="custom-select" id="sortBy" onchange="applyFilters()">
+                        <option label="Tytule" value="title" selected></option>
+                        <option label="Wydawnictwie" value="publisher"></option>
+                        <option label="Autorze" value="author"></option>
                     </select>
                 </div>
                 <div>
-                    Kierunek:
-                    <select class="custom-select">
-                        <option selected>Rosnąco</option>
-                        <option>Malejąco</option>
+                    <label for="sortDirection">Kierunek:</label>
+                    <select class="custom-select" id="sortDirection" onchange="applyFilters()">
+                        <option label="Rosnąco" value="asc" selected></option>
+                        <option label="Malejąco" value="desc"></option>
                     </select>
                 </div>
             </div>
